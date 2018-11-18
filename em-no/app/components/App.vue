@@ -1,5 +1,6 @@
 <template>
     <Page>
+        <ActionBar />
         <GridLayout rows="*, auto">
             <StackLayout row="0">
                 <Label text="msg"></Label>

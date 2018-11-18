@@ -1,14 +1,23 @@
-import Vue from 'nativescript-vue'
-import App from './components/App'
-import VueDevtools from 'nativescript-vue-devtools'
+import Vue from "nativescript-vue";
+import App from "./components/App";
+import VueDevtools from "nativescript-vue-devtools";
 
-if(TNS_ENV !== 'production') {
-  Vue.use(VueDevtools)
+if (TNS_ENV !== "production") {
+  Vue.use(VueDevtools);
 }
 // Prints Vue logs when --env.production is *NOT* set while building
-Vue.config.silent = (TNS_ENV === 'production')
+Vue.config.silent = TNS_ENV === "production";
 
+// Plugins
+Vue.registerElement(
+  "BottomNavigation",
+  () => require("nativescript-bottom-navigation").BottomNavigation
+);
+Vue.registerElement(
+  "BottomNavigationTab",
+  () => require("nativescript-bottom-navigation").BottomNavigationTab
+);
 
 new Vue({
-  render: h => h('frame', [h(App)])
-}).$start()
+  render: h => h("frame", [h(App)])
+}).$start();

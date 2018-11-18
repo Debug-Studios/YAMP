@@ -5,7 +5,7 @@
             <StackLayout row="0">
                 <Label text="msg"></Label>
             </StackLayout>
-            <BottomNavigation backgroundColor="black" keyLineColor="black" @tabSelected="onBottomNavigationTabSelected" row="1">
+            <BottomNavigation row="1">
                 <BottomNavigationTab title="First" icon="icon" />
                 <BottomNavigationTab title="Second" icon="icon" />
                 <BottomNavigationTab title="Third" icon="icon" />

@@ -6,7 +6,7 @@
 
 ``` bash
 # Install dependencies
-yarn install
+npm install
 
 # Build for production
 tns build <platform> --bundle

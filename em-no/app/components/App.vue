@@ -1,27 +1,27 @@
 <template>
-    <Page>
-        <ActionBar />
-        <GridLayout rows="*, auto">
-            <StackLayout row="0">
-                <Label text="msg"></Label>
-            </StackLayout>
-            <BottomNavigation row="1">
-                <BottomNavigationTab title="First" icon="icon" />
-                <BottomNavigationTab title="Second" icon="icon" />
-                <BottomNavigationTab title="Third" icon="icon" />
-            </BottomNavigation>
-        </GridLayout>
-    </Page>
+  <Page>
+    <ActionBar />
+    <GridLayout rows="*, auto">
+      <StackLayout row="0">
+        <Label text="msg"></Label>
+      </StackLayout>
+      <BottomNavigation row="1">
+        <BottomNavigationTab title="First" icon="icon" />
+        <BottomNavigationTab title="Second" icon="icon" />
+        <BottomNavigationTab title="Third" icon="icon" />
+      </BottomNavigation>
+    </GridLayout>
+  </Page>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        msg: 'Hello World!'
-      }
-    }
-  }
+export default {
+  data() {
+    return {
+      msg: 'Hello World!',
+    };
+  },
+};
 </script>
 
 <style scoped>

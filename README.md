@@ -1,4 +1,4 @@
-# EM-NO
+# YAMP
 
 > A Cross-Platform Music Player for Android and IOS
 

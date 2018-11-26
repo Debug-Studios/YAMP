@@ -1,11 +1,11 @@
 {
-  "name": "em-no",
+  "name": "YAMP",
   "version": "0.0.1",
-  "description": "A Cross-Platform Music Player for Android and IOS",
+  "description": "Yet Another Music Player for Android and IOS",
   "author": "Debug Studios",
   "license": "MIT",
   "nativescript": {
-    "id": "org.debugstudios.emno",
+    "id": "org.debugstudios.yamp",
     "tns-ios": {
       "version": "5.0.0"
     },
@@ -21,7 +21,7 @@
     "nativescript-toast": "^1.4.6",
     "nativescript-vue": "^2.0.0",
     "nativescript-vue-devtools": "^1.0.0",
-    "tns-core-modules": "^5.0.2",
+    "tns-core-modules": "^5.0.5",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -46,7 +46,7 @@
     "sass-loader": "^7.1.0",
     "terser-webpack-plugin": "^1.1.0",
     "vue-loader": "^15.2.6",
-    "webpack": "^4.16.4",
+    "webpack": "^4.26.1",
     "webpack-bundle-analyzer": "~2.13.1",
     "webpack-cli": "^3.1.0"
   }
